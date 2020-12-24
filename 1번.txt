@@ -1,0 +1,36 @@
+package main;
+
+import java.util.Scanner;
+
+public class Main {
+
+	/*	public static void main(String[] args) {
+
+		Scanner sc = new Scanner(System.in);
+		int a;
+
+		while(true) {
+			System.out.print("숫자 입력(홀수) >> ");
+			a = Integer.parseInt(sc.next());
+
+			if(a%2==1) {
+				for(int j=1; j<=a;j+=2) {
+					for(int i=(a-j)/2;i>0;i--)
+					{
+						System.out.print(" ");
+					}
+
+					for(int k=0;k<j;k++) {
+						System.out.print("*");
+					}
+					System.out.println();
+				}		
+				System.out.println();
+
+				break;
+			}else {
+				System.out.println("홀수를 입력해 주세요. ");
+			}
+		}
+	}
+}
